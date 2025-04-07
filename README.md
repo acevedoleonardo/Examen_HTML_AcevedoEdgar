@@ -12,4 +12,13 @@ Ingreso Solidario.
 
 Tendra como nombre la Pagina web "Ingreso Solidario". 
 
- 
+#Elaboración de la maquetación 
+
+Se desarrolla un encabezado donde se ubica 4 item para la pagina principal de la pagina. 
+
+- Inicio
+- ¿Qué es?
+- Entrega
+- Consultar 
+
+Se crean dos bloques de información en los cuales dentro de cada uno de ellos se añadira informacion de relevancia para el usuario. 

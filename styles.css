@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+    
 
 body {
     background-image: url(/Imagenes/Fondo@2x.png);
@@ -38,7 +38,7 @@ header {
     height: auto;
     width: 100%;
     margin: auto;
-    padding: 2vh;
+    padding: 1vh;
     font-size-adjust: calc(1);
     text-align: center;    
 
@@ -61,13 +61,13 @@ header {
 
 .Caja1 {
 
-    width: 500px;
-    height: 900px;
-    margin: 20px;
-    padding: 10px;
+    width: 50vh;
+    height: 25vh;
+    margin: 2 vw;
+    padding: 1vh;
     border-width: 5px;
     border-color: #000;
-    border-style:solid;
+    border-style: solid;
     background-color: white;
     
   
@@ -76,10 +76,10 @@ header {
 
 .Caja2 {
 
-    width: 500px;
-    height: 900px;
-    margin: 20px;
-    padding: 10px;
+    width: 50vh;
+    height: 25vh;
+    margin: 2 vw;
+    padding: 1vh;
     border-width: 5px;
     border-color: #000;
     border-style: solid;

@@ -21,11 +21,44 @@
     <div class="Contenedor">
         <div class="Caja1">
             <h2>Consulta tu estado del ingreso solidario</h2>
+            <p>Por favor ingresa tus datos personales para revisar el estado de entrega de tu ingreso.</p>
+            <form>
+                
+                <h2>Tipo de Documento
+                    <select name="menu">
+                        <option>...</option>
+                        <option>Cedula de Ciudadania</option>
+                        <option>Cedula de Extranjeria</option>
+                        <option>Pasaporte</option>
+                      </select>
+                </h2>
+                <h2>Numero de Documento
+                     <input type="text" placeholder="Escriba su numero de Documento">
+                </h2>
+
+                <h2>Primer Nombre 
+                    <input type="text" placeholder="Nombre">
+               </h2>
+               <h2>Primer Apellido
+                <input type="text" placeholder="Apellido">
+           </h2>
+           <h2>Fecha de Expedición 
+           <input type="date" id="start" name="trip-start" value="2025-01-01"  min="1950-01-01" max="2025-04-07" />
+           <h2>Telefono Movil
+            <input type="text" placeholder="Numero de Celular">
+           </h2>
+        </h2>
+        <button class="Formulario">Consultar</button>
+
+            </form>
+
         </div>
         <div class="Caja2">
         <h2>Ingreso Solidario</h2>
-        <p>Debido a la situación generada por el COVID-19, el gobierno nacional aportara a las familias mas afectadas y que no pertenezcan a ningun programa social un subsidio por $160.000 
+        <p><br>Debido a la situación generada por el COVID-19, el gobierno nacional aportara a las familias mas afectadas y que no pertenezcan a ningun programa social un subsidio por $160.000 
         </p>
+        <br>
+        <br>
         <button>Conocer más</button>
         </div>
     </div>

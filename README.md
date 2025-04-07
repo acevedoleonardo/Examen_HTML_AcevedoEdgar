@@ -22,3 +22,14 @@ Se desarrolla un encabezado donde se ubica 4 item para la pagina principal de la
 - Consultar 
 
 Se crean dos bloques de información en los cuales dentro de cada uno de ellos se añadira informacion de relevancia para el usuario. 
+
+#Creacion de Bloques
+
+- Formulario
+- Texto Explicativo 
+
+Dentro de cada bloque se añade botones. 
+
+El proyecto tiene una imagen de fondo y su lo destacable se realiza con medidas responsivas. 
+
+

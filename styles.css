@@ -1,0 +1,96 @@
+/* Estilos básicos de la página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-image: url(/Imagenes/Fondo@2x.png);
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+
+}
+
+a {
+    color: white;
+    padding: 5vh;
+}
+
+button{
+
+    width: 10vh;
+    height: 3vh;
+    border-radius: 25px;
+    background-color: #d1caca;
+
+}
+
+header {
+    background-color:rgb(78, 139, 243); 
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 2vh;
+    font-size-adjust: calc(1);
+    text-align: center;    
+
+
+
+}
+
+    
+
+.Contenedor {
+    display: flex; /* Activa Flexbox para organizar las cajas */
+    flex-wrap: wrap; /* Permite que las cajas bajen de línea si no caben */
+    justify-content: center; /* Centra las cajas horizontalmente */
+    align-items: center; /* Alinea las cajas verticalmente */
+    width: 100%; /* Controla el ancho del contenedor */
+    max-width: 720px; /* Evita que se haga demasiado grande */
+    margin: 5vh auto; /* Centra el contenedor en la pantalla */
+    padding: 1vw;
+    }
+
+.Caja1 {
+
+    width: 500px;
+    height: 900px;
+    margin: 20px;
+    padding: 10px;
+    border-width: 5px;
+    border-color: #000;
+    border-style:solid;
+    background-color: white;
+    
+  
+
+}
+
+.Caja2 {
+
+    width: 500px;
+    height: 900px;
+    margin: 20px;
+    padding: 10px;
+    border-width: 5px;
+    border-color: #000;
+    border-style: solid;
+    
+  
+
+}
+
+.Gob {
+
+    width: 8px;
+    height: 10 px; 
+
+}
